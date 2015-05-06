@@ -1,0 +1,4 @@
+c:\users\uma\documents\visual studio 2010\Projects\trail1\trail1\bin\trail1.dll
+c:\users\uma\documents\visual studio 2010\Projects\trail1\trail1\bin\trail1.pdb
+c:\users\uma\documents\visual studio 2010\Projects\trail1\trail1\obj\Debug\trail1.dll
+c:\users\uma\documents\visual studio 2010\Projects\trail1\trail1\obj\Debug\trail1.pdb
