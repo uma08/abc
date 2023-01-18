@@ -1,3 +1,37 @@
+terraform {
+  required_version = "1.0.8"
+  required_providers {
+    google = {
+      version = "3.87.0"
+    }
+  }
+  backend "local" {}
+}
+
+provider "google" {
+  alias       = "dev"
+  credentials = "../sa/terraform-dev.json"
+  project = "example-dev"
+}
+
+provider "google-beta" {
+  alias       = "dev"
+  credentials = "../sa/terraform-dev.json"
+  project     = "example-dev"
+}
+
+module "vpc" {
+  source        = "terraform-google-modules/network/google"
+  version       = "3.4.0"
+  project_id    = "example-dev"
+  network_name  = "main-network"
+
+  providers  = {
+    google = google.dev
+    # google-beta = google-beta.dev
+  }
+  subnets = []
+}
 resource "googleworkspace_schema" "birthday" {
   schema_name = "birthday"
 
