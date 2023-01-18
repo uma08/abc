@@ -1,16 +1,10 @@
-terraform import googleworkspace_domain.example example.com
+resource "aws_iam_user" "company_web_ses_user" {
+  name          = "company-web-ses-user"
+  force_destroy = "true"
+  #  permissions_boundary = local.boundary_arn
+}
 
-data "googleworkspace_user" "example" {
-    primary_email = "annauma1992@gmail.com"
-  }
+resource "aws_iam_access_key" "company_web_ses_user" {
+  user = aws_iam_user.company_web_ses_user.name
+}
 
-resource "googleworkspace_user" "alias" {
-    primary_email = "annauma1992@gmail.com"
-    password      = "9840908374"
-    hash_function = "MD5"
-
-   }
-
-
-
-  
