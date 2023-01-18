@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cloudera-195410",
+  "private_key_id": "cb6b70d42ff089ef92f721279b1d1c1c9cbcc706",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC4txK6mRmSvgB6\nuXPnGJ/tkE0rFG7n1Up/NU1xJm61VdITOTAjW3IVNj+XlXXZ8I9ohv8GPIOHYnTm\nsksCfu1BOcD9GKxVr3oUJZ5697MctYKo9jBTLmtSl/qmhZ4tjUIqbHrF1WftnVrD\n0fLzU7/KJ6eF3VZ7tmxNjBrHv8INhWW8v1Z6oJiShl0TkfjrcnQxzcmAtjwe6WhJ\nPPGRldSyzSJMnhP57Y2Uz9wE33a6GozWj+5yWGPTXDYCb4kmTYw/iQdX8dSMZoA3\n+eg6zvYm4iBzX4/Z6aVKWqp8WltlAcdQ6xBH8RKu2QScq/h1WI1nMDS5TO/V1ePc\nvDX5+R2dAgMBAAECggEAQ6Y448IijY2sm0XEXwSzvcu1l2t6WsnQ6NnarPAIZ70w\nnP261ZguJfqiO5/vc4wY2Y1nZR9QhIrYiY0Oz7Ewr0y5k3gv1YnYyfwlGKATJxaK\n7dqMREqh37PthoM1NTWg3+yu4jmQQIP6s/D2a4tmmGEBh5NSkyhybcw8Gp/uMAjl\nstHFBxiXbsfWD6wVZnCkfTV9Os5qfP9z2zdD9Q+vK29EzcMM2E7Bt8eO76uBqerz\nqO+PxxllBC6OYH6GuVUHt3kncEaxiwVGT65h5gfUwL1HlVWSDeUKHtDK/O432Cs5\nvJSY/eYLn8mZEK3Wsk3ubs5XOqqvSqoQvbLzky75+QKBgQDd9bPt5Kxq2ESm2iWT\nnMNbsK/hPLkWxh547uSEeMoBNWYhyrDcU5qNo7WOfsj20HGTZIzMCm7quRgFA2xv\naThS/T3QF8HJgyLjeWtMM3nGamT2fF23STDAXmLCPCqBtRUMCYaQysStU7GDPvgm\nZjF0x/V+6Aa8J8ITFzac/QBrswKBgQDVCx6F8zgtkEizGARD1SLlE1hJfd153mST\nugxS8N4KcwfRavRAFR/jm5eeOrKMDnjFA3r9IfQNYfzU1SZkKnlHYAVNdoSKEZMf\nQw+w81Oe8/Nbz2dOLAEZ9Bt4Ei7nSuiNNGzdUjjQ4+Xb6l/YSVaoXhMTaNtwGQ/g\nIf9YM+ppbwKBgDNDK+slhSyoBjMC7urIqdXjWLuMarL3ztHfWqe9venJi20CgxZf\nuLI9vRDL914JhjGkZ2A4iKVtWj7OK50PkBKaqkwFMJx5zPT8deuDd/x7VhYXYw2R\nudCz+9sgSjDqwZGmIY4PRp1BVx4YzPcRYxq1k91beTK7e/csxVA8nnxBAoGAI5r1\nIfvxMqQ/kjb8V33ilBh0k+vGPRzvAEWC08XPxj1NXDGc2qztJHQXlelHd+LfSkX3\noyCukiIDSGrLPMhgdo5UtIqPQigHx5zEnZU9L36j+H8kS8tM79J9WMbpMdyyGw9c\n9mxMdJTyEJwOIq63HfKDC6Zlrklx/sqPy2T5018CgYEAjxTKvIHoa2nPVQyNpRQL\nqz7Z4W57pxbVyG5ISZs9CmQ+7RtwFXxlFqxyTJf1uI1n0k+4w0hJlgt7FXJhH3NG\ns0ib5nZxBF7ZyX5wD2DRKquTzyiasWwvTWmYV9QEHnMGq3B0AeuywLuTGMflcsV5\naVjcdTiekwUVzwBq4Q7cZok=\n-----END PRIVATE KEY-----\n",
+  "client_email": "tf-demo-sa@cloudera-195410.iam.gserviceaccount.com",
+  "client_id": "105592274016537495696",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tf-demo-sa%40cloudera-195410.iam.gserviceaccount.com"
+}
