@@ -19,7 +19,7 @@ terraform {
 
 # We define the "google" provider with the project and the general region + zone
 provider "google" {
-  credentials = file("terraform-sa.json")
+  #credentials = file("terraform-sa.json")
   ## INSERT YOUR PROJECT ID HERE!!
   project = "my-medium-demo-project-299218"
   region = "europe-west1"
