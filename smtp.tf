@@ -1,5 +1,5 @@
 terraform import googleworkspace_domain.example example.com
-
+{
 data "googleworkspace_user" "example" {
   primary_email = "annauma1992@gmail.com"
 }
@@ -18,4 +18,5 @@ resource "googleworkspace_user" "alias" {
 resource "googleworkspace_gmail_send_as_alias" "test" {
   primary_email = data.googleworkspace_user.example.primary_email
   send_as_email = googleworkspace_user.alias.primary_email
+}
 }
