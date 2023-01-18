@@ -1,3 +1,3 @@
 resource "localfile" "pet" {
-  filename = "C:\Users\a.gayathri.gopaluni\Desktop\expl.txt"
+  filename = "/root/expl.txt"
   content = "we love"
