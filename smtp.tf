@@ -1,4 +1,4 @@
-output "smtp" {
+variable "smtp" {
   smtp_enable = true
   smtp_address = "smtp.gmail.com"
   smtp_port = 587
