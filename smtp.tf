@@ -1,4 +1,4 @@
-module "smtp_example" {
+provider "smtp_example" {
   smtp_enable = true
   smtp_address = "smtp.gmail.com"
   smtp_port = 587
