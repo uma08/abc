@@ -2,8 +2,8 @@ terraform {
   # Here we configure the providers we need to run our configuration
   required_providers {
     google = {
-      source = "hashicorp/google"
-      version = "3.51.0"
+      source = "console.cloud.google.com/home"
+      
     }
   }
 
